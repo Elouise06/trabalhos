@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimos - Nexus Bank</title>
+    <link rel="stylesheet" href="emprestimos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Nexus Bank</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="emprestimos.html">Empréstimos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+            <div class="container">
+                <h2>Empréstimos Nexus Bank</h2>
+                <p>Oferecemos condições especiais para você realizar seus sonhos.</p>
+            </div>
+        </section>
+
+        <!-- Seção Opções de Empréstimos -->
+        <section class="loan-details">
+            <div class="container">
+                <h3>Opções de Empréstimos</h3>
+                <p>Nosso banco oferece diversos tipos de empréstimos, com taxas e prazos acessíveis. Veja as opções abaixo:</p>
+                <ul>
+                    <li>Empréstimos pessoais</li>
+                    <li>Empréstimos para financiamento de veículos</li>
+                    <li>Empréstimos para financiamento imobiliário</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Simulador de Empréstimos -->
+        <section class="loan-simulator">
+            <div class="container">
+                <h3>Simule Seu Empréstimo</h3>
+                <p>Use o simulador abaixo para calcular o valor das parcelas do seu empréstimo.</p>
+                <form>
+                    <label for="amount">Valor do Empréstimo:</label>
+                    <input type="number" id="amount" name="amount" placeholder="Digite o valor" required>
+
+                    <label for="installments">Número de Parcelas:</label>
+                    <input type="number" id="installments" name="installments" placeholder="Digite o número de parcelas" required>
+
+                    <label for="rate">Taxa de Juros (% ao ano):</label>
+                    <input type="number" id="rate" name="rate" placeholder="Digite a taxa de juros" required>
+
+                    <button type="submit" class="btn-primary">Simular</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Seção Taxas de Juros -->
+        <section class="interest-rates">
+            <div class="container">
+                <h3>Taxas de Juros</h3>
+                <p>Confira as taxas de juros para cada tipo de empréstimo oferecido pelo Nexus Bank:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tipo de Empréstimo</th>
+                            <th>Taxa de Juros Anual</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Empréstimo Pessoal</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr>
+                            <td>Empréstimo para Veículo</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Empréstimo Imobiliário</td>
+                            <td>7%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Seção Como Solicitar -->
+        <section class="how-to-apply">
+            <div class="container">
+                <h3>Como Solicitar Seu Empréstimo</h3>
+                <p>Para solicitar seu empréstimo, siga os passos abaixo:</p>
+                <ol>
+                    <li>Acesse o nosso site e escolha o tipo de empréstimo que você deseja.</li>
+                    <li>Preencha o formulário de solicitação com os seus dados e as condições do empréstimo.</li>
+                    <li>Aguarde a análise de crédito e aprovação do seu pedido.</li>
+                    <li>Após a aprovação, assine o contrato e receba o valor do empréstimo.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Seção Perguntas Frequentes -->
+        <section class="faq">
+            <div class="container">
+                <h3>Perguntas Frequentes</h3>
+                <div class="faq-item">
+                    <h4>Quais são os documentos necessários para solicitar um empréstimo?</h4>
+                    <p>Você precisa apresentar um documento de identidade, CPF, comprovante de renda e comprovante de residência.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Posso quitar o empréstimo antes do prazo?</h4>
+                    <p>Sim, você pode quitar o empréstimo antecipadamente. Consulte as condições para redução de juros.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Qual a taxa de juros do empréstimo pessoal?</h4>
+                    <p>A taxa de juros do empréstimo pessoal é de 15% ao ano, dependendo do seu perfil de crédito.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Nexus Bank - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
