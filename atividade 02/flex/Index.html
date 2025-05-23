@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicação simples para exemplificar a utilização do display flex e display grid</title>
+
+</head>
+
+<body>
+    <div class="gallery-flex">
+        <div class="item"><img src="/trabalhos/atividade 02/flex/img/y2k.jfif" alt="Imagem 1"></div>
+        <div class="item"><img src="../flex/img/🎀.jfif" alt="Imagem 2"></div>
+        <div class="item"><img src="../flex/img/cute girlie digital camera on amazon _3.jfif" alt="Imagem 3"></div>
+        <div class="item"><img src="../flex/img/spiderman y2k.jfif" alt="Imagem 4"></div>
+        <div class="item"><img src="../flex/img/download.jfif" alt="Imagem 5"></div>
+        <div class="item"><img src="../flex/img/Ai.jfif" alt="Imagem 6"></div>
+    </div>
+
+</body>
+<style>
+    body{
+        background: lightblue;
+    }
+    .gallery-flex {
+        display: flex;
+        flex-wrap: wrap;
+        /* permite que os itens quebrem linha */
+        gap: 20px;
+        /* espaçamento entre os itens */
+        justify-content: center;
+        /* centraliza os itens na linha */
+    }
+
+    .gallery-flex .item {
+        flex: 1 1 150px;
+        /* cresce e encolhe, largura base 150px */
+        max-width: 200px;
+    }
+
+    .gallery-flex img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+</style>
+
+</html>
