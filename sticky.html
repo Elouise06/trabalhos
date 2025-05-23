@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aplicação com os tipos possíveis de positions - ABSOLUTE</title>
+    <title>aplicação com os tipos possíveis de positions - STICKY</title>
 </head>
 <style>
     body {
-        background-color: #f2e4f9;
+        background-color: #ccbca1;
         margin: 0px;
         padding: 0px;
         height: 180vh;
@@ -18,18 +18,17 @@
     .pai {
         width: 300px;
         height: 300px;
-        background-color: #b1e1e9;
-        position: relative;
-        top: 150px;
+        background-color: #ff695c;
+        margin: 200px 0 0 200px;
+        position: sticky;
+        top: 0;
+        left: 0;
     }
 
     .filho {
         width: 150px;
         height: 150px;
-        background-color: #96d7eb;
-        position: absolute;
-        top: 50px;
-        left: 50px;
+        background-color: #ba3259;
     }
 </style>
 
@@ -38,3 +37,5 @@
         <div class="filho"></div>
     </div>
 </body>
+
+</html>
